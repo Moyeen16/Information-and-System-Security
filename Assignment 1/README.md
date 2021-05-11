@@ -13,4 +13,4 @@ Implement the following in Modular Arithmetic:
 1. Implement the Euclidean Algorithm, to find GCD of two numbers:
 2. Given two integers a and b, compute GCD (a,b) as well as b^-1 mod a,  when a and b are co-prime to each other using the Extended Euclidean Algorithm. Implement the Extended Euclidean Algorithm. Hence prove 28-1 mod 75 = 67.
 
-                                                                            ***********
+                                                          ************
