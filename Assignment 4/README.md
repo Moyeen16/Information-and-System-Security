@@ -24,6 +24,45 @@
          encipherment:
                     Electronic Code Book (ECB) mode,
                     Cipher Block Chaining (CBC) mode
-                                
+                            
+    
+
+    Sample Run : 
+    
+        Enter the of Substitution Key.
+        0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+        14 4 13 1 2 15 11 8 3 10 6 12 5 9 0 7
+
+        Enter the of Permutation Key.
+        1 2 3 4 5 6 7 8 
+        1 4 5 7 3 6 2 8
+
+
+        ************* Demonstration of Substitution Permutation Cipher *************
+        1. Encrypt
+        2. Decrypt
+        3. Exit
+        1
+
+        ************* SP Module *************
+        Enter the Input Text.
+        10100100
+        Enter the Key (24 bit key)
+        101100011010101000101101
+
+        *****Block Number 1*****
+        1 0 1 0 0 1 0 0 
+        *****Round 1*****
+        0 0 1 1 0 1 1 1 
+        *****Round 2*****
+        1 1 1 0 0 0 1 1 
+        *****Round 3*****
+        0 0 1 1 1 0 0 0 
+        *****Round 4*****
+        1 0 0 0 1 0 1 1 
+
+
+        Input Text :    1 0 1 0 0 1 0 0 
+        Output Text :   1 0 0 0 1 0 1 1
                                 
                                                               *************
